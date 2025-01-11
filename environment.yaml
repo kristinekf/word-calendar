@@ -1,0 +1,10 @@
+name: word-calendar
+channels:
+  - conda-forge
+dependencies:
+  - python==3.12
+  - pip==24.2
+  - pip:
+    - holidays==0.64
+    - python-docx==1.1.2
+    - odfpy==1.4.1
