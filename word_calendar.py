@@ -7,6 +7,8 @@ from docx.shared import RGBColor
 import holidays
 from datetime import datetime
 
+# Code generated using ChatGPT
+
 def set_row_height(row, height_cm):
     """Set the height of a Word table row in centimeters."""
     tr = row._tr  # Access the underlying XML element for the row
@@ -58,7 +60,7 @@ def generate_calendar(year):
         "F7E5D3",  # Jun Very Light Peach
         "E0F5D3",  # Jul Very Light Green
         "D4E9F7",  # Aug Very Light Sky Blue
-        "FAD0D4",  # Sept Very Light Pink
+        "FAD0D4",  # Sep Very Light Pink
         "F9F2D0",  # Oct Very Light Yellow
         "D5E8E5",  # Nov Very Light Teal
         "e0c2cd",  # Des Very Light Purple
